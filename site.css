@@ -1,0 +1,39 @@
+
+/* Google font example (Module 2 method)
+   Replace with any font kit you choose */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Container spacing */
+#container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Heading styles for h1–h4 */
+h1, h2, h3, h4 {
+  background-color: #003366;   /* Dark blue */
+  color: #ffffff;              /* White text */
+  border: 1px solid #D6A800;   /* Required gold border */
+  padding: 10px;
+}
+
+/* Normal link style */
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+/* Hover link style */
+a:hover {
+  color: #005fb8;
+}
+
+/* Visited link style */
+a:visited {
+  color: #4b0082;
+}

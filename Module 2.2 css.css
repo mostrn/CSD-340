@@ -1,0 +1,68 @@
+
+/* Base font sizing for the whole page */
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Paragraphs: weight 400 and line-height 1.4em */
+p {
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0.75rem 0;
+}
+
+/* h1: weight 700, uppercase, centered */
+h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0 0; /* optional spacing */
+}
+
+/* h2: weight 500, left aligned, top padding 15px */
+h2 {
+  font-weight: 500;
+  text-align: left;
+  padding-top: 15px;
+  margin: 0.25rem 0 0.5rem; /* optional spacing */
+}
+
+/* Address centered */
+address {
+  text-align: center;
+  font-style: normal; /* keep it readable unless your instructor wants italics */
+  margin-top: 1rem;
+}
+
+/* Website URL in the address: bold, 1.25em, #4F3674, no underline */
+address a {
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #4F3674;
+  text-decoration: none;
+}
+
+/* Pseudo classes for the website link */
+address a:hover {
+  text-decoration: underline;
+  background-color: #D6A800;
+}
+
+address a:visited {
+  /* Instructor allows your choice; here's a subtle visited style */
+  color: #3b2755; /* a slightly darker purple */
+}
+
+/* Sentence class: italic */
+.sentence {
+  font-style: italic;
+}
+
+/* Intro paragraph: 2em text indent */
+.intro {
+  text-indent: 2em;
+}
+``
